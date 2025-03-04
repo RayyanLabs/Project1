@@ -11,9 +11,10 @@ body{
 html{
   font-family: sans-serif;
   line-height: 1.2em;
-
+}
 label{
   display: block;
+}
 
 #content{
   width: 90%;
@@ -21,3 +22,4 @@ label{
   border-radius: 8px;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
   padding: 20px;
+}
