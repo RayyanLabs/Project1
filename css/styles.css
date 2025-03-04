@@ -16,6 +16,8 @@ html{
 }
 label{
   display: block;
+  color: #000000;
+  margin-bottom: 10px;
 }
 h1{
   font-size: 36px;
@@ -31,7 +33,7 @@ p{
 li{
   font-size: 20px;
   color: #552582;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 #content{
   width: 90%;
@@ -42,41 +44,44 @@ li{
 }
 
 input[type="text"]{
-  background-color: #9104f1;
   width: 90%;
+  background-color: #9104f1;
+  color: #FFFFFF;
+  font-size:10px;
   border: none;
   border-radius: 4px;
   padding: 12px;
-  color: #FFFFFF;
-  font-size:10px;
   box-sizing:border-box;
 }
 input[type="email"]{
+  width: 90%;
   background-color: #9104f1;
   color: #FFFFFF;
-  width: 90%;
+  font-size:10px;
   border: none;
   border-radius: 4px;
   padding: 12px;
+  box-sizing: border-box;
 }
 input[type="tel"]{
+  width: 90%;
   background-color: #9104f1;
   color: #FFFFFF;
-  width: 90%;
-  padding: 12px;
+  font-size:10px;
   border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 14px;
+  border-radius: 4px;
+  padding: 12px;
+  box-sizing: border-box;
 }
 input[type="submit"]{
+  width: 90%;
   background-color: #d3d3d3;
-  color: black;
-  width: 100%;
-  padding: 12px;
+  color: #000000;
+  font-size: 14px;
   border: none;
   border-radius: 5px;
-  font-size: 12px;
+  padding: 12px;
+  cursor: pointer;
 }
 input[type="submit"]:hover {
   background-color: #ebc62d;
