@@ -16,7 +16,22 @@ html{
 label{
   display: block;
 }
-
+h1{
+  font-size: 36px;
+  font-weight: bold;
+  color: #552582;
+  margin-bottom: 25px;
+}
+p{
+  font-size: 16px;
+  color: #FDB927;
+  margin-bottom: 20px;
+}
+li{
+  font-size: 20px;
+  color: #552582;
+  margin-bottom: 10px;
+}
 #content{
   width: 90%;
   background-color: rgba(255,255,255,0.8);
