@@ -87,5 +87,18 @@ input[type="submit"]:hover {
   background-color: #ebc62d;
 }
 
+#input-Is-Lebron-James-The-Goat{
+  margin-bottom: 25px;
+}
+
+#input-Is-Lebron-James-The-Goat label{
+  margin-right: 10px;
+  display: inline;
+}
+
+#input-Is-Lebron-James-The-Goat input[type="checkbox"]{
+  display: inline-block;
+  margin-right: 10px;
+}
   
 
