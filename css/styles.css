@@ -100,5 +100,30 @@ input[type="submit"]:hover {
   display: inline-block;
   margin-right: 10px;
 }
-  
 
+@media (min-width: 768px) {
+  #content {
+    width: 70%;
+    max-width: 550px;
+    padding: 25px;
+  }
+input[type="text"]{
+   font-size: 14px;
+   padding: 10px;
+}
+
+input[type="email"]{
+  font-size: 14px;
+  padding: 10px;
+}
+
+input[type="tel"] {
+ font-size: 14px;
+ padding: 10px;
+}
+
+input[type="submit"]{
+  font-size: 14px;
+  padding: 10px;
+  }
+}
