@@ -1,6 +1,9 @@
 body{
   background-image: url("../images/lebronxbronnyjames.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
   margin: 0;
   padding: 0;
   display: flex;
