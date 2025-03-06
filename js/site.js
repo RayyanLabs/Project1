@@ -1,8 +1,8 @@
 document.getElementById('content').addEventListener('submit', function(event) {
-  var username = document.getElementById('username').value;
-  if (username === '') {
+  var checkbox = document.getElementById('is-lebron-james-the-goat').value;
+  if (!checkbox.checked) {
     event.preventDefault();
-    alert('Please enter your username');
+    alert('You Must Accept Lebron Is The Goat To Join The Club!');
   } else {
     alert("Congratulations on Joining the LeBron SuperFan Club!");
     }
